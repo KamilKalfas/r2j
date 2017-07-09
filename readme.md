@@ -16,7 +16,7 @@ $ npm install r2j
 ## Usage
 
 ```javascript
-const r2j = require('r2j);
+const r2j = require('r2j');
 r2j.load('https://lowcygier.pl/promocje/mobilne/feed/')
   .then(json => doSomething(json))
   .catch(err => handleError(err));
