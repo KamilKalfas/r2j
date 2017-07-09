@@ -3,9 +3,9 @@
 > + supports parsing _categories_ and _content:encoded_
 > + removes HTML tags and special chars
 
-[![Build Status](https://travis-ci.org/KamilKalfas/img-color.svg?branch=master)](https://travis-ci.org/KamilKalfas/r2j)
-[![npm](https://img.shields.io/npm/dt/img-color.svg)](https://www.npmjs.com/package/r2j)
-[![npm](https://img.shields.io/npm/v/img-color.svg)](https://www.npmjs.com/package/r2j)
+[![Build Status](https://travis-ci.org/KamilKalfas/r2j.svg?branch=master)](https://travis-ci.org/KamilKalfas/r2j)
+[![npm](https://img.shields.io/npm/dt/r2j.svg)](https://www.npmjs.com/package/r2j)
+[![npm](https://img.shields.io/npm/v/r2j.svg)](https://www.npmjs.com/package/r2j)
 
 ## Install
 
@@ -16,7 +16,10 @@ $ npm install r2j
 ## Usage
 
 ```javascript
-
+const r2j = require('r2j);
+r2j.load('https://lowcygier.pl/promocje/mobilne/feed/')
+  .then(json => doSomething(json))
+  .catch(err => handleError(err));
 ```
 ## Output
 ```json

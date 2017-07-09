@@ -1,0 +1,59 @@
+{
+  "name": "r2j",
+  "version": "1.0.0",
+  "description": "RSS feed parser for Node.js",
+  "author": {
+    "name": "Kamil Kalfas",
+    "email": "kamilkalfas@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Kamil Kalfas",
+      "email": "kamilkalfas@gmail.com",
+      "url": "http://kamilkalfas.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "xml2js": "^0.4.16"
+  },
+  "keywords": [
+    "rss-to-json",
+    "r2j",
+    "rss",
+    "rssparser",
+    "rssreader",
+    "rss reader",
+    "rss parser",
+    "rss",
+    "parser",
+    "reader",
+    "xml2js",
+    "xml2json",
+    "rss to json",
+    "rss2json",
+    "rss 2 json",
+    "feed-read",
+    "feed read",
+    "feed",
+    "feedparser",
+    "feed-parser",
+    "feed parser",
+    "feed-reader",
+    "feedreader",
+    "feed reader",
+    "rss json"
+  ],
+  "scripts": {
+    "test": "xo"
+  },
+  "xo": {
+    "space": true,
+    "ignores": [
+      "node_modules/"
+    ]
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  }
+}
